@@ -4,7 +4,7 @@ Script and installer to periodically clone a directory to another directory with
 # Installation
 1. Clone the repository and unzip.
 2. Move the `autobackup_win` directory to a convenient place.
-3. Run `installer.bat`. You will be asked following info.
+3. Run `installer.bat`. You will be asked for the following info.
   - Source folder fullpath
   - Destination folder fullpath
   - Destination server username (optional)
