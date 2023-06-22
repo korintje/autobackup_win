@@ -1,5 +1,11 @@
 # autobackup_win
-Script and installer to periodically clone a directory to another directory with robocopy and task manager in MS Windows
+Script and installer to periodically backup a directory using robocopy and task manager under MS Windows
+
+# Available environment
+- Microsoft Windows newer than Win95.
+
+# Required dependencies
+None
 
 # Installation
 1. Download the repository and unzip.
