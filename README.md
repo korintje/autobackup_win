@@ -2,10 +2,7 @@
 Script and installer to periodically backup a directory using robocopy and task manager under MS Windows
 
 # Available environment
-- Microsoft Windows newer than Win95.
-
-# Required dependencies
-None
+- Microsoft Windows newer than Win98.
 
 # Installation
 1. Download the repository and unzip.
