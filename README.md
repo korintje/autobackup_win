@@ -11,4 +11,4 @@ Script and installer to periodically clone a directory to another directory with
   - Destination server password (optional)
 
 # Note 
-- Default backup interval is 10 min. Currently, you can change the value by changing `10` to another value in the line `SCHTASKS /Create /RU "%USERNAME%" /TN "AutoBackup" /SC minute /MO 10 /TR "%command% %arguments%" /RL HIGHEST` in the `installer.bat`. It will be more convenient in future.
+- Default backup interval is 10 min. Currently, you can change the interval time by changing `10` to another value in the line `SCHTASKS /Create /RU "%USERNAME%" /TN "AutoBackup" /SC minute /MO 10 /TR "%command% %arguments%" /RL HIGHEST` in the `installer.bat` before the installation. It will be more convenient in future.
