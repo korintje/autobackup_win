@@ -15,4 +15,4 @@ Script and installer to periodically backup a directory using robocopy and task 
 
 # Note 
 - Default backup interval is 10 min. Currently, you can change the interval time by changing `10` to another value in the line `SCHTASKS /Create /RU "%USERNAME%" /TN "AutoBackup" /SC minute /MO 10 /TR "%command% %arguments%" /RL HIGHEST` in the `installer.bat` before the installation. It will be more convenient in future.
-- Q. Why `attrib -s -h` after robocopy? A. Robocopy automatically sets the hidden attribute if the source directory is the drive root (e.g. `D: \`). You can omit it if you do not set the drive root in the source directory.
+- Q. Why `attrib -s -h` after robocopy? A. Robocopy automatically sets the hidden attribute if the source directory is the drive root (e.g. `D:\`). You can omit it if you do not set the drive root in the source directory.
