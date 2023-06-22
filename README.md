@@ -2,8 +2,8 @@
 Script and installer to periodically clone a directory to another directory with robocopy and task manager in MS Windows
 
 # Installation
-1. Clone the repository and unzip.
-2. Move the `autobackup_win` directory to a convenient place.
+1. Download the repository and unzip.
+2. Move the `autobackup_win-main` directory to a convenient place.
 3. Run `installer.bat`. You will be asked for the following info.
   - Source folder fullpath
   - Destination folder fullpath
