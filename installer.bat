@@ -34,7 +34,7 @@ SCHTASKS /Create /RU "%USERNAME%" /TN "AutoBackup" /SC minute /MO 10 /TR "%comma
 
 REM Check for any errors during the previous command execution
 if %errorlevel% equ 0 (
-    echo Task created successfully.
+    echo Task created successfully. Press ENTER to close the window.
 ) else (
     echo Failed to create the task. Please check for any errors.
     echo Make sure that the installer.bat must be run as Administrator.
