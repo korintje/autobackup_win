@@ -29,7 +29,7 @@ echo SERVER_PASSWORD=!SERVER_PASSWORD!>>config.ini
 REM Run set_scheduller.bat
 REM set "command=C:\Windows\System32\wscript.exe"
 set "command=wscript"
-set "arguments=\"%CURRENT_DIR%backup-runner.vbs""
+set "arguments=\"%CURRENT_DIR%backup-runner.wsf""
 SCHTASKS /Create /RU "%USERNAME%" /TN "AutoBackup" /SC minute /MO 10 /TR "%command% %arguments%" /RL HIGHEST
 
 REM Check for any errors during the previous command execution

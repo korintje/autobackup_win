@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <job id="RunBackup">
+    <script language="JScript">
+      <![CDATA[
+        var ws = new ActiveXObject("WScript.Shell");
+        var FSO = new ActiveXObject("Scripting.FileSystemObject");
+        var current_dir = FSO.GetParentFolderName(WScript.ScriptFullName);
+        var bat_path = current_dir + "\\backup.bat";
+        ws.Run("cmd /c \"" + bat_path + "\"", 0, true);
+      ]]>
+    </script>
+  </job>
+</package>
